@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <strong>Este documento fornece uma visão geral do programa em Dart, que inclui quatro classes principais para lidar com operações bancárias. O programa simula as funcionalidades básicas de um sistema bancário, como criação de contas, operações de saldo, transferências e muito mais.</strong>
+  <strong>Este documento fornece uma visão geral do programa em Dart, que inclui quatro classes principais para lidar com operações bancárias. O programa simula as funcionalidades básicas de um sistema bancário, como criação de contas, operações de saldo, transferências.</strong>
 </div>
 
 <br>
@@ -34,21 +34,12 @@ A classe `Titular` é usada para representar os titulares das contas no banco. E
 
 A função `main` é a principal função de inicialização do programa. Ela configura o ambiente do banco e inicia um menu de interação com o usuário, permitindo operações como cadastro de titulares, cadastro de contas, operações de conta e saída do programa.
 
-## 📞 Contato
-
-Se você tiver alguma dúvida ou quiser discutir sobre o programa em Dart, sinta-se à vontade para entrar em contato:
-
-- Email: seu-email@example.com
-- LinkedIn: [Seu Nome](https://www.linkedin.com/in/seu-perfil/)
-
-Vamos explorar juntos os conceitos fundamentais de Dart e aplicá-los em projetos práticos! 🚀
 
 ## ⭐ Deixe uma Estrela!
 
-Se este programa foi útil ou interessante para você, considere deixar uma ⭐. Isso ajudará a reconhecer o esforço que colocamos. Obrigado pelo apoio!
+Se este programa foi útil ou interessante para você, considere deixar uma ⭐. Isso ajudará a reconhecer o meu esforço.
 
 ---
-
 <p align="center">
   <sub>Feito com ❤️ por <strong>Jaison</></sub>
 </p>
