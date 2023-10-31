@@ -20,14 +20,8 @@ A classe `Conta` foi desenvolvida para simular operações bancárias simples, c
 - `transferir(destino, valor)`: Transfere um valor para outra conta, se o saldo for suficiente.
 - `mostrarSaldo()`: Exibe o saldo atual da conta.
 
-## ℹ️ Uso
-
-Para testar a implementação da classe `Conta`, é possível utilizar o arquivo `main.dart`, que demonstra exemplos de operações bancárias básicas, incluindo saques, depósitos e transferências entre contas.
-
-Certifique-se de executar o código em um ambiente Dart para observar o funcionamento das operações de forma adequada.
-
 ---
 
 <p align="center">
-  <sub>Desenvolvido por [Seu Nome]</sub>
+  <sub>Desenvolvido por <strong>Jaison</strong></sub>
 </p>
