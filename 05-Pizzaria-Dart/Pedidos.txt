@@ -1,0 +1,13 @@
+
+------------  COD PEDIDO: 1858  -------------
+| Pedido realizado em: 2023-10-31 22:28:51.786781 |
+item -> cod: 6626, Sabor: queijo | Valor: 21.0 
+item -> cod: 6626, Sabor: queijo | Valor: 21.0 
+-------- VALOR TOTAL: 42.0 R$ ---------
+
+------------  COD PEDIDO: 4270  -------------
+| Pedido realizado em: 2023-10-31 22:29:04.040361 |
+item -> cod: 6626, Sabor: queijo | Valor: 21.0 
+item -> cod: 6626, Sabor: queijo | Valor: 21.0 
+item -> cod: 6626, Sabor: queijo | Valor: 21.0 
+-------- VALOR TOTAL: 63.0 R$ ---------
