@@ -11,8 +11,12 @@
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Dart-0175C2.svg?style=flat&logo=dart&logoColor=white" alt="Dart Badge">
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge">
+   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge">
 </p>
+
+
+
 
 ## ℹ️ Sobre
 
