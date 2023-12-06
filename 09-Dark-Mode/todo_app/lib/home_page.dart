@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
         actions: [
           Switch(value: AppController.instance.isDarkTheme, onChanged: (value) {
             setState(() {
-              AppController.instance.chengeTheme(value);
+              AppController.instance.changeTheme(value);
             });
           },),
           IconButton(onPressed: () => controller.start(), icon: const Icon(Icons.refresh_outlined))

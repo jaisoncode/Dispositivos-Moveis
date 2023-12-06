@@ -1,33 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:todo_app/database_provider.dart';
 
 class AppController extends ChangeNotifier {
   static AppController instance = AppController();
-
-  late SharedPreferences _prefs;
+  late DatabaseProvider _databaseProvider;
 
   bool isDarkTheme = false;
 
   AppController() {
+    _databaseProvider = DatabaseProvider();
     _startSettings();
   }
+
   _startSettings() async {
-    await _startPreferences();
     await _readDarkTheme();
   }
 
-  Future _startPreferences() async {
-    _prefs = await SharedPreferences.getInstance();
-  }
-
   _readDarkTheme() async {
-    isDarkTheme = _prefs.getBool('is_dark_theme') ?? true;
+    isDarkTheme = await _databaseProvider.getDarkTheme();
     notifyListeners();
   }
 
-  chengeTheme(bool isDarkTheme) async {
+  changeTheme(bool isDarkTheme) async {
     this.isDarkTheme = isDarkTheme;
-    await _prefs.setBool('is_dark_theme', isDarkTheme);
-    _readDarkTheme();
+    await _databaseProvider.updateDarkTheme(isDarkTheme);
+    notifyListeners();
   }
 }
